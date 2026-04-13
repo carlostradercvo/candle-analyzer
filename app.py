@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from data_loader import load_data
-from analisador import analyze
+from analyzer import analyze
 from config import MIN_CONFIDENCE
 
 st.set_page_config(page_title="Analisador de Velas", layout="centered")
